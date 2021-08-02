@@ -12,6 +12,7 @@ export default function Home() {
 
       <main>
         <h1 className="title">
+          {/* implementing the link tag to view different pages created  */}
           Read{' '}
           <Link href="/posts/first-post">
             <a>This page!</a>
